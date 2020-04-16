@@ -1,0 +1,30 @@
+<html>
+    <head>
+            <meta charset="UTF-8"/>
+            <title>Pokedex</title>
+            <link rel="stylesheet" href="style.css"/>
+            <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet"/>
+            <link rel="shortcut icon" href="pokeball.png"/>
+    </head>
+    <body>
+        <div class="baner"><img id="baner_img" src="pokedex.png"/></div>
+        <button id="btn" onclick="document.getElementById('filtr_form').style.display='block'; document.body.style.overflow='hidden';">FILTER</button><br/><br/>
+        <div id="filtr_form">
+            <div id="filtr_form_content">
+                <span class="close" onclick="document.getElementById('filtr_form').style.display='none'; document.body.style.overflowY='scroll';">x</span>
+                <h1>FILTER</h1>
+                <br/><input onfocus="document.getElementById('match_list').style.display='block'" onfocusout="document.getElementById('match_list').style.display='none'" onkeypress="enter(event)" id="inp_name" type="search" placeholder="search name"/>
+                <div id="checklist">
+                    
+                </div>
+                <div id="match_list"></div>
+              
+            </div>
+        </div>
+        <ol id="list">
+            <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+        </ol>
+        <script src="app.js"></script>
+    </body>
+</html>
+

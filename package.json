@@ -1,0 +1,15 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "allegro staz",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.html"
+  },
+  "author": "Michal Gulczynski",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^11.3.0"
+  }
+}

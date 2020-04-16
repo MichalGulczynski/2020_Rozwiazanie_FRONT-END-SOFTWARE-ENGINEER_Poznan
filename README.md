@@ -1,0 +1,1 @@
+# 2020_Rozwiazanie_FRONT-END-SOFTWARE-ENGINEER_Poznan
